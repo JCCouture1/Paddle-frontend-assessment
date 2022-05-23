@@ -1,0 +1,74 @@
+body{
+    background-color: rgba(247, 0, 0, 0.082); 
+}
+.main-content{
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main-input{
+    margin-top: 10px;
+    padding: 8px 35px;
+}
+.main-button{
+    padding: 10px 20px;
+    background-color: #27042c;
+    color: white;
+    border: none;
+    
+}
+.repos{
+    width: 300px;
+    height: 60vh;
+    margin-top: 120px;
+    background-color: white;
+    margin-left: -30%;
+    text-align: left;
+    justify-content: left;
+}
+h1{
+    display: block;
+    justify-content: center;
+}
+.repo-img{
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.repo-h1{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.repo-p{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    .main-content{
+        margin-top: 80px;
+        padding-top: 10px;
+        display: block;
+        position: relative;
+        
+    }
+    .main-button{
+        margin-top: 10px;
+        
+    }
+    
+    .repos{
+        width: 350px;
+        height: 40vh;
+        margin-top: 200px;
+        background-color: white;
+        margin-left: 5px;
+        position: absolute;
+        
+    }
+    
+}
